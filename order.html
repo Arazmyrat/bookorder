@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+	<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookstore - Order Your Book</title>
+  </head>
+  <body>
+    <header>
+      <h1>Order Your Book</h1>
+    </header>
+    <main>
+      <form action="./order.html" method="POST">
+        <section>
+           <label for="book_name">Select your book name: </label><br />
+          <select id="book_name" type="text" name="book_name" list="book_name">
+            <option value="AA">AA</option>
+            <option value="BB">BB</option>
+            <option value="CC">CC</option>
+           </select>
+          
+          
+        </section>
+        <br />
+        <section>
+          <label for="book_type">Select your book type: </label><br />
+          <select id="book_type" name="book_type"><br/>
+            <option value="fantasy.">Fantasy.</option>
+            <option value="classics">Classics</option>
+            <option value="horror" >Horror</option>
+          </select>
+        </section>
+        <br />
+        <section>
+          <label for="language"> Select language:</label><br />
+          <select id="language" type="text" list="language" name="language"><br/>
+            <option value="English">English</option>
+            <option value="Russian">Russian</option>
+            <option value="Turkish">Turkish</option>
+          </select>
+        </section>
+        <br />
+        <section>
+          <label for="Writer"> Select Writer</label><br />
+          <select id="writer" type="text" list="writer" name="writer"><br/>
+            <option value="puskin">Puskin</option>
+            <option value="leotolstoy">Leo Tolstoy</option>
+            <option value="williamshakespeare">William Shakespeare</option>
+          </select>
+        </section>
+        <br />
+        <section>
+          <label for="bookformat">Select your book format</label><br />
+          <select id="bookformat" type="text" list="bookformat" name="bookformat"><br/>
+           	<option value="word">Word</option>
+            <option value="pdf">PDF</option>
+            <option value="ebook">E-Book</option>
+          </select>
+        </section>
+        <br />
+        <section>
+          <button type="submit">Submit</button>
+        </section>
+      </form>
+    </main>
+    <hr/>
+    <footer>&copy; 2020 Bookstore</footer>
+  </body>
+</html>
